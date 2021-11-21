@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from 'react';
 import BreakTimer from './BreakTimer';
-
+import { buildStyles, CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
 
 
@@ -8,8 +9,13 @@ export function Timer (){
     const [minutesLeft, setMinutesLeft]= useState(25);
     const [seconds, setSeconds]= useState(0);
     const [displayTimer, setDisplayTimer]=useState(false);
-    const [count, setCount]=useState(0);
-
+    const [mode, switchMode]=useState('work');
+<CircularProgressbar value={40} text='40' styles={buildStyles({
+pathColor: `rgba(62, 152, 199, ${percentage / 100})`,
+textColor: '#f88',
+trailColor: '#d6d6d6',
+backgroundColor: '#3e98c7',
+})}/>
 
 
 useEffect(()=>{
