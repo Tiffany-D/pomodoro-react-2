@@ -8,6 +8,7 @@ export function Timer (){
     const [seconds, setSeconds]= useState(0);
     const [displayTimer, setDisplayTimer]=useState(false);
     const [isActive, setIsActive]=useState(false);
+    const [stop, setStop]=useState(false);
 
 
 
@@ -17,7 +18,7 @@ clearInterval(startTimer)
 
 let intervalID;
 
-if(isActive){
+if(isActive, stop){
     intervalID=setInterval(()=>{
         
     })
@@ -43,7 +44,7 @@ if(isActive){
     }
 
     },1000);
-}, [isActive, seconds]);
+}, [isActive, stop, seconds]);
 
 
 
@@ -57,7 +58,7 @@ if(isActive){
         </div>
         <div className="start__stop__buttons">
             <button onClick={()=>setIsActive(!isActive)}>{isActive? 'Pause' : 'Start'}</button>
-            <button>Stop</button>
+            <button onClick={()=>setStop(!stop)}>Stop</button>
             
         </div>
         <div className="plus__button">
