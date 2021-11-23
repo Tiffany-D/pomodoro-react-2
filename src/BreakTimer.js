@@ -50,17 +50,17 @@ if(isActive){
                 <h2>Break Time !</h2>
             {minutesLeft}:{seconds}
         </div>
-        <div className="start__stop__buttons">
-            <button onClick={()=>setIsActive(!isActive)}>{isActive? 'Stop' : 'Start'}</button>
-            
-        </div>
-        <div className="plus__button">
+        <div className="button">
     <button className="plus" onClick={()=>setMinutesLeft(minutesLeft +1)}>+</button>
     
-</div>
-<div className="minus__button">
+
+<div className="minus">
     <button onClick={()=>setMinutesLeft(minutesLeft -1)}>-</button>
 </div>
+</div>
+<div className="start__stop__buttons">
+            <button onClick={()=>setIsActive(!isActive)}>{isActive? 'Stop' : 'Start'}</button>
+        </div>
         </div>
     )
 }

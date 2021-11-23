@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.pomodoro {
+  background-color: #FF87CA;
+  border-radius: 15px;
+}
+
+.pomodoro .timer-comp {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pomodoro .timer-comp h2 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.pomodoro .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pomodoro .button .plus {
+  background-color: #F6C6EA;
+  margin: 5px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  border: 3px solid #FF00E4;
+  border-radius: 50px;
+}
+
+.pomodoro .button .minus {
+  background-color: #F6C6EA;
+  margin: 5px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  border: 3px solid #FF00E4;
+  border-radius: 50px;
+}
+
+.pomodoro .start__stop__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+}
+
+.pomodoro .start__stop__buttons button {
+  border-radius: 12px;
+  border: none;
+  padding: 10px;
+  background-color: #D62AD0;
+}
+
+.break-time {
+  text-align: center;
+}
+
+.break-time .break-message {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.break-time .break-message h2 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.break-time .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.break-time .button .minus {
+  background-color: #F6C6EA;
+  margin: 5px;
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  border: 3px solid #FF00E4;
+  border-radius: 50px;
+}
+
+.break-time .start__stop__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+}
+
+.break-time .start__stop__buttons button {
+  border-radius: 12px;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  background-color: #D62AD0;
+}
+/*# sourceMappingURL=pomodoro.css.map */

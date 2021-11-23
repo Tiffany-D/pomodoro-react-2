@@ -22842,12 +22842,47 @@ function Timer() {
                     seconds1
                 ]
             }),
+            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                className: "button",
+                __source: {
+                    fileName: "src/Timer.js",
+                    lineNumber: 58,
+                    columnNumber: 9
+                },
+                __self: this,
+                children: [
+                    /*#__PURE__*/ _jsxRuntime.jsx("button", {
+                        className: "plus",
+                        onClick: ()=>setMinutesLeft(minutesLeft + 1)
+                        ,
+                        __source: {
+                            fileName: "src/Timer.js",
+                            lineNumber: 59,
+                            columnNumber: 5
+                        },
+                        __self: this,
+                        children: "+"
+                    }),
+                    /*#__PURE__*/ _jsxRuntime.jsx("button", {
+                        className: "minus",
+                        onClick: ()=>setMinutesLeft(minutesLeft - 1)
+                        ,
+                        __source: {
+                            fileName: "src/Timer.js",
+                            lineNumber: 60,
+                            columnNumber: 5
+                        },
+                        __self: this,
+                        children: "-"
+                    })
+                ]
+            }),
             /*#__PURE__*/ _jsxRuntime.jsx("div", {
                 className: "start__stop__buttons",
                 __source: {
                     fileName: "src/Timer.js",
-                    lineNumber: 57,
-                    columnNumber: 9
+                    lineNumber: 62,
+                    columnNumber: 1
                 },
                 __self: this,
                 children: /*#__PURE__*/ _jsxRuntime.jsx("button", {
@@ -22855,7 +22890,7 @@ function Timer() {
                     ,
                     __source: {
                         fileName: "src/Timer.js",
-                        lineNumber: 58,
+                        lineNumber: 63,
                         columnNumber: 13
                     },
                     __self: this,
@@ -22863,58 +22898,17 @@ function Timer() {
                 })
             }),
             /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                className: "plus__button",
-                __source: {
-                    fileName: "src/Timer.js",
-                    lineNumber: 61,
-                    columnNumber: 9
-                },
-                __self: this,
-                children: /*#__PURE__*/ _jsxRuntime.jsx("button", {
-                    className: "plus",
-                    onClick: ()=>setMinutesLeft(minutesLeft + 1)
-                    ,
-                    __source: {
-                        fileName: "src/Timer.js",
-                        lineNumber: 62,
-                        columnNumber: 5
-                    },
-                    __self: this,
-                    children: "+"
-                })
-            }),
-            /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                className: "minus__button",
-                __source: {
-                    fileName: "src/Timer.js",
-                    lineNumber: 64,
-                    columnNumber: 1
-                },
-                __self: this,
-                children: /*#__PURE__*/ _jsxRuntime.jsx("button", {
-                    onClick: ()=>setMinutesLeft(minutesLeft - 1)
-                    ,
-                    __source: {
-                        fileName: "src/Timer.js",
-                        lineNumber: 65,
-                        columnNumber: 5
-                    },
-                    __self: this,
-                    children: "-"
-                })
-            }),
-            /*#__PURE__*/ _jsxRuntime.jsx("div", {
                 className: "break-timer",
                 __source: {
                     fileName: "src/Timer.js",
-                    lineNumber: 68,
+                    lineNumber: 65,
                     columnNumber: 9
                 },
                 __self: this,
                 children: /*#__PURE__*/ _jsxRuntime.jsx(_breakTimerDefault.default, {
                     __source: {
                         fileName: "src/Timer.js",
-                        lineNumber: 69,
+                        lineNumber: 66,
                         columnNumber: 13
                     },
                     __self: this
@@ -23010,49 +23004,51 @@ function BreakTimer() {
                     seconds1
                 ]
             }),
-            /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                className: "start__stop__buttons",
+            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                className: "button",
                 __source: {
                     fileName: "src/BreakTimer.js",
                     lineNumber: 53,
                     columnNumber: 9
                 },
                 __self: this,
-                children: /*#__PURE__*/ _jsxRuntime.jsx("button", {
-                    onClick: ()=>setIsActive(!isActive)
-                    ,
-                    __source: {
-                        fileName: "src/BreakTimer.js",
-                        lineNumber: 54,
-                        columnNumber: 13
-                    },
-                    __self: this,
-                    children: isActive ? 'Stop' : 'Start'
-                })
+                children: [
+                    /*#__PURE__*/ _jsxRuntime.jsx("button", {
+                        className: "plus",
+                        onClick: ()=>setMinutesLeft(minutesLeft + 1)
+                        ,
+                        __source: {
+                            fileName: "src/BreakTimer.js",
+                            lineNumber: 54,
+                            columnNumber: 5
+                        },
+                        __self: this,
+                        children: "+"
+                    }),
+                    /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                        className: "minus",
+                        __source: {
+                            fileName: "src/BreakTimer.js",
+                            lineNumber: 57,
+                            columnNumber: 1
+                        },
+                        __self: this,
+                        children: /*#__PURE__*/ _jsxRuntime.jsx("button", {
+                            onClick: ()=>setMinutesLeft(minutesLeft - 1)
+                            ,
+                            __source: {
+                                fileName: "src/BreakTimer.js",
+                                lineNumber: 58,
+                                columnNumber: 5
+                            },
+                            __self: this,
+                            children: "-"
+                        })
+                    })
+                ]
             }),
             /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                className: "plus__button",
-                __source: {
-                    fileName: "src/BreakTimer.js",
-                    lineNumber: 57,
-                    columnNumber: 9
-                },
-                __self: this,
-                children: /*#__PURE__*/ _jsxRuntime.jsx("button", {
-                    className: "plus",
-                    onClick: ()=>setMinutesLeft(minutesLeft + 1)
-                    ,
-                    __source: {
-                        fileName: "src/BreakTimer.js",
-                        lineNumber: 58,
-                        columnNumber: 5
-                    },
-                    __self: this,
-                    children: "+"
-                })
-            }),
-            /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                className: "minus__button",
+                className: "start__stop__buttons",
                 __source: {
                     fileName: "src/BreakTimer.js",
                     lineNumber: 61,
@@ -23060,15 +23056,15 @@ function BreakTimer() {
                 },
                 __self: this,
                 children: /*#__PURE__*/ _jsxRuntime.jsx("button", {
-                    onClick: ()=>setMinutesLeft(minutesLeft - 1)
+                    onClick: ()=>setIsActive(!isActive)
                     ,
                     __source: {
                         fileName: "src/BreakTimer.js",
                         lineNumber: 62,
-                        columnNumber: 5
+                        columnNumber: 13
                     },
                     __self: this,
-                    children: "-"
+                    children: isActive ? 'Stop' : 'Start'
                 })
             })
         ]

@@ -22,10 +22,12 @@
   "dependencies": {
     "parcel": "^2.0.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "sass": "^1.43.4"
   },
   "devDependencies": {
     "@becode/eslint-config": "^0.13.0",
+    "@parcel/transformer-sass": "^2.0.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.2.0",
     "eslint-plugin-prettier": "^4.0.0",
